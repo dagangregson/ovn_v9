@@ -9,8 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, världen, commita 2 ggr nu!")
-            .padding()
+        VStack {
+            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                Text("Kanappensnamn")
+            }
+            Text("Hello, världen, commita 2 ggr nu!")
+                .padding()
+        }
     }
 }
 
